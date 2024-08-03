@@ -20,7 +20,7 @@
     background-clip: text;
     font-weight: 400;
     margin: 1em 0;
-    line-height: 1.2em;
+    line-height: 1.5em;
 }
 
 .contato_email {
@@ -39,4 +39,29 @@
     background: url("../images/Email.svg");
     background-repeat: no-repeat;
     padding-left: 2em;
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .contato {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3em 15%;
+
+    }
+
+    .contato_titulo {
+        font-size: 24px;
+        line-height: 1.5em;
+    }
+
+    .contato_contato {
+        text-align: left;
+    }
+
+    .contato_email {
+        width: 50%;
+    }
+
 }

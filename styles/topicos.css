@@ -32,3 +32,24 @@
     font-weight: 700;
 }
 
+.topicos_link:hover {
+    background-color: var(--azul);
+}
+
+@media screen and (min-width: 1024px) {
+
+    .topicos_titulo {
+        font-size: 24px;
+        padding: 2 0 2.5 0;
+    }
+
+    .topicos_item {
+        margin: 2em 1em
+    }
+
+    .topicos_link {
+        font-size: 18px;
+    }
+
+
+}
